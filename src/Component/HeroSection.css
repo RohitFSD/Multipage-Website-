@@ -1,0 +1,50 @@
+.boss{
+    width:100%;
+    display: flex; 
+}
+.Text-part{
+    width: 50%;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 8%;
+    margin-left: 15%;
+   
+}
+.Text-part h1{
+    font-weight:1000;
+}
+.upper{
+    color:grey;
+}
+.lower{
+    color: grey;
+}
+p,h1{
+    margin: 0;
+}
+.image-part{
+   width: 50%;
+   margin-top: 2%;
+   margin-right: 3%;
+}
+.image-part img{
+    width: 100%;
+    height:auto;
+}
+.btn{
+    background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            margin-top: 4%;
+}
+.btn:hover {
+    background-color: #45a049;
+}

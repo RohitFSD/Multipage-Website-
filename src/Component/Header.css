@@ -1,0 +1,28 @@
+.Header{
+    background-color: aliceblue;
+    display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.buttons {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+  }
+  .buttons li {
+    display: inline; 
+  }
+  
+  .buttons li a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: Black;
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+ 
+  .buttons li a:hover {
+    background-color: skyblue; 
+  }
